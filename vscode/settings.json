@@ -1,0 +1,408 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Default Dark+",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "cSpell.userWords": [
+        "Evernote",
+        "Grafana",
+        "Graphviz",
+        "ITVDN",
+        "Ilona",
+        "Kodi",
+        "Kubernetes",
+        "Lightroom",
+        "Murata",
+        "Mutex",
+        "Notes",
+        "Orbotech",
+        "Pandoc",
+        "Photoshop",
+        "RAII",
+        "Shift",
+        "Unstage",
+        "Vitis",
+        "Vivado",
+        "also",
+        "asio",
+        "audiobook",
+        "boost",
+        "common",
+        "constexpr",
+        "cout",
+        "deallocated",
+        "enduml",
+        "grpc",
+        "ifdef",
+        "indicator",
+        "kibana",
+        "logstash",
+        "lu",
+        "lvalue",
+        "malloc",
+        "misc",
+        "multithread",
+        "multithreading",
+        "photochrome",
+        "plantuml",
+        "pointers",
+        "refcount",
+        "robocopy",
+        "rv",
+        "rvalue",
+        "rvаluе",
+        "sergey",
+        "shows",
+        "sintax",
+        "startuml",
+        "unaliased",
+        "атомарность",
+        "бэкапа",
+        "локали",
+        "микросервис",
+        "мьютекса",
+        "мьютексами",
+        "мьютексы",
+        "невладеющая",
+        "портируемо",
+        "пресетами",
+        "туной",
+        "шардов"
+    ],
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 90,
+        "editor.rulers": [
+            90
+        ]
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "git.ignoreWindowsGit27Warning": true,
+    "cSpell.language": "ru,en",
+    "cSpell.enabled": true,
+    "cSpell.showStatus": true,
+    "spellright.language": [
+        "en",
+        "he",
+        "ru"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "sync.gist": "e95506364ad6f3caefcc80e5dd97ceb4",
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "calendar.google.credentialsFile": "C:\\serg\\download\\credentials.json",
+    "calendar.historicDays": 3,
+    "calendar.notificationInterval": 5,
+    "calendar.notificationRepeatInterval": 5,
+    "calendar.showRelativeDates": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "text.html.markdown.journal.task.open.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.marker",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.text",
+                "settings": {}
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.marker",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.text",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.scope",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            }
+        ]
+    },
+    "journal.base": "c:\\serg\\work\\journal\\",
+    "journal.patterns": {
+        "notes": {
+            "path": "${base}/${year}/${month}/${day}",
+            "file": "${input}.${ext}"
+        },
+        "entries": {
+            "path": "${base}/${year}/${month}",
+            "file": "${day}.${ext}"
+        }
+    },
+    "journal.dev": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideActivityBar": false,
+    "workbench.statusBar.visible": true,
+    "git.autofetch": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "terminal.integrated.automationShell.windows": "",
+    "bracketPairColorizer.highlightActiveScope": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "files.defaultLanguage": "${activeEditorLanguage}",
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "githubPullRequests.hosts": [
+        {
+            "host": " vscode://vscode.github-authentication/did-authenticate?windowid=1&code=f4af03f9b1ecbc81798a&state=5d8d1fbd-1a91-4be3-a334-d39900e46298 ",
+            "token": "GITHUB TOKEN"
+        }
+    ],
+    "problems.showCurrentInStatus": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": true,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.rulers": [
+        80,
+        100,
+        120
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "languageTool.language": "en,ru",
+    "journal.templates": [
+        {
+            "name": "memo",
+            "template": "- MEMO ${localTime}: ${input}"
+        },
+        {
+            "name": "task",
+            "template": "- [] ${d:LL} - Task: ${input}"
+        },
+        {
+            "name": "entry",
+            "template": "# ${d:dddd, MMMM DD YYYY}\n\n## Tasks\n\n## Notes\n\n"
+        },
+        {
+            "name": "time",
+            "template": "${localTime}"
+        },
+        {
+            "name": "note",
+            "template": "# ${input}\n\n${tags}\n"
+        },
+        {
+            "name": "files",
+            "template": "- NOTE: [${title}](${link})"
+        }
+    ],
+    "pandoc.htmlOptString": "-s -f gfm -t html5 --css=style.css",
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "192.168.0.21": "linux",
+        "192.168.0.15": "linux"
+    },
+    "editor.accessibilitySupport": "off",
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "[ ] TASK_WORK",
+        "[x] TASK_WORK",
+        "[ ] TASK_VS2017",
+        "[x] TASK_VS2017",
+        "[ ] TASK_Rasp",
+        "[x] TASK_Rasp",
+        "[ ] TASK_C++",
+        "[x] TASK_C++",
+        "[ ] TASK_Emb",
+        "[x] TASK_Emb"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.regex.enableMultiLine": true,
+    "todo-tree.general.statusBar": "current file",
+    "todo-tree.highlights.customHighlight": {
+        "[ ]": {
+            "iconColour": "#ff0000",
+            "background": "#ff0000"
+        },
+        "[x]": {
+            "icon": "check",
+            "iconColour": "#ff0000",
+            "background": "#ff0000"
+        },
+        "[ ] TASK_WORK": {
+            "icon": "briefcase",
+            "iconColour": "#a66400",
+            "background": "#a66400"
+        },
+        "[x] TASK_WORK": {
+            "icon": "check",
+            "iconColour": "#a66400",
+            "background": "#a66400"
+        },
+        "[ ] TASK_VS2017": {
+            "icon": "inbox",
+            "iconColour": "#64a600",
+            "background": "#64a600"
+        },
+        "[x] TASK_VS2017": {
+            "icon": "check",
+            "iconColour": "#64a600",
+            "background": "#64a600"
+        },
+        "[ ] TASK_Rasp": {
+            "icon": "file-badge",
+            "iconColour": "#00595f",
+            "background": "#00595f"
+        },
+        "[x] TASK_Rasp": {
+            "icon": "check",
+            "iconColour": "#00595f",
+            "background": "#00595f"
+        },
+        "[ ] TASK_C++": {
+            "icon": "rocket",
+            "iconColour": "#00a68a",
+            "background": "#00a68a"
+        },
+        "[x] TASK_C++": {
+            "icon": "check",
+            "iconColour": "#00a68a",
+            "background": "#00a68a"
+        },
+        "[ ] TASK_Emb": {
+            "icon": "cpu",
+            "iconColour": "#5900ff",
+            "background": "#5900ff"
+        },
+        "[x] TASK_Emb": {
+            "icon": "check",
+            "iconColour": "#5900ff",
+            "background": "#5900ff",
+            "foreground": "#b98cfa"
+        }
+    },
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe",
+    "jupyter.alwaysTrustNotebooks": true,
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "/bin/zsh",
+            "icon": "star"
+        },
+        "PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "icon": "terminal-powershell"
+        },
+        "Git Bash": {
+            "path": "%PROGRAMFILES%/git/usr/bin/bash.exe",
+            "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico"
+        },
+        "cmd": {
+            "path": "${env:windir}\\Sysnative\\cmd.exe",
+            "icon": "terminal-cmd"
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "security.workspace.trust.untrustedFiles": "open"
+}
