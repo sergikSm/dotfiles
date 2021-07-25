@@ -290,7 +290,9 @@
         "[ ] TASK_C++",
         "[x] TASK_C++",
         "[ ] TASK_Emb",
-        "[x] TASK_Emb"
+        "[x] TASK_Emb",
+        "[ ] TASK_Python",
+        "[x] TASK_Python"
     ],
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "todo-tree.highlights.useColourScheme": true,
@@ -356,6 +358,17 @@
             "iconColour": "#5900ff",
             "background": "#5900ff",
             "foreground": "#b98cfa"
+        },
+        "[ ] TASK_Python": {
+            "icon": "eye",
+            "iconColour": "#A09000",
+            "background": "#A09000"
+        },
+        "[x] TASK_Python": {
+            "icon": "eye-closed",
+            "iconColour": "#A09000",
+            "background": "#A09000",
+            "foreground": "#b98cfa"
         }
     },
     "gitlens.advanced.messages": {
@@ -384,6 +397,10 @@
         "cmd": {
             "path": "${env:windir}\\Sysnative\\cmd.exe",
             "icon": "terminal-cmd"
+        },
+        "Python": {
+            "path": "c:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe",
+            "icon": "star"
         }
     },
     "terminal.integrated.defaultProfile.osx": "PowerShell",
@@ -402,7 +419,12 @@
         },
         "Git Bash": {
             "source": "Git Bash"
+        },
+        "Python": {
+            "path": "c:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe",
+            "icon": "star"
         }
     },
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe"
 }
