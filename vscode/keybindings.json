@@ -43,5 +43,15 @@
     {
         "key": "ctrl+shift+-",
         "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "shift+enter",
+        "command": "python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
     }
 ]

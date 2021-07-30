@@ -101,7 +101,8 @@
         "fetch:command",
         "stash-push:command",
         "switch:command",
-        "push:command"
+        "push:command",
+        "branch-create:command"
     ],
     "calendar.google.credentialsFile": "C:\\serg\\download\\credentials.json",
     "calendar.historicDays": 3,
@@ -292,7 +293,9 @@
         "[ ] TASK_Emb",
         "[x] TASK_Emb",
         "[ ] TASK_Python",
-        "[x] TASK_Python"
+        "[x] TASK_Python",
+        "[ ] TASK_Photo",
+        "[x] TASK_Photo"
     ],
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "todo-tree.highlights.useColourScheme": true,
@@ -369,6 +372,17 @@
             "iconColour": "#A09000",
             "background": "#A09000",
             "foreground": "#b98cfa"
+        },
+        "[ ] TASK_Photo": {
+            "icon": "telescope",
+            "iconColour": "#606090",
+            "background": "#606090"
+        },
+        "[x] TASK_Photo": {
+            "icon": "tasklist",
+            "iconColour": "#606090",
+            "background": "#606090",
+            "foreground": "#b98cfa"
         }
     },
     "gitlens.advanced.messages": {
@@ -426,5 +440,5 @@
         }
     },
     "security.workspace.trust.untrustedFiles": "open",
-    "python.defaultInterpreterPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe"
+    "python.defaultInterpreterPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe",
 }
