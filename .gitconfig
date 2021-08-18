@@ -1,0 +1,28 @@
+[user]
+	name = ‘sergikSm’
+	email = ‘ssergey65@gmail.com’
+[color]
+	diff = auto
+	branch = auto
+[credential]
+	helper = store
+[push]
+	default = simple
+[core]
+	autocrlf = true
+	editor = code --wait
+[alias]
+	s = status -s
+	ch = checkout
+	br = branch
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[diff]
+    tool = winmerge
+[difftool "winmerge"]
+    cmd = "c:/serg/application/WinMerge/WinMergeU.exe" -e "$LOCAL" "$REMOTE"
+[help]
+	autocorrect = 20
