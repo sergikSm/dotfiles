@@ -15,14 +15,28 @@
 	s = status -s
 	ch = checkout
 	br = branch
+	lg = log --oneline --graph
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[help]
+	autocorrect = 20
+[merge]
+	tool = winmerge
+[mergetool]
+	prompt = false
+    keepBackup = false
+    keepTemporaries = false
+[mergetool "winmerge"]
+   	name = WinMerge
+    trustExitCode = true
+    cmd = "/c/serg/application/WinMerge/WinMergeU.exe" -u -e -dl \"Local\" -dr \"Remote\" $LOCAL $REMOTE $MERGED
+
 [diff]
     tool = winmerge
 [difftool "winmerge"]
-    cmd = "c:/serg/application/WinMerge/WinMergeU.exe" -e "$LOCAL" "$REMOTE"
-[help]
-	autocorrect = 20
+    name = WinMerge
+    trustExitCode = true
+    cmd = "/c/serg/application/WinMerge/WinMergeU.exe" -u -e $LOCAL $REMOTE
