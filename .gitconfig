@@ -21,6 +21,11 @@
 	cic = commit -v --amend 	# Change last commit and -v show all lasr changes
 	cif = commit -v -a --amend # add file in last commit without changes index
 	brc = checkout -b		# git checkout -b branch_name create new branch and switch to it
+<<<<<<< HEAD
+=======
+	brcr =  push origin 	# create remote brabch
+	brl = push --set-upstream origin # link current stream with upstream
+>>>>>>> 4e81239 (Update git config alias)
 	brm = branch -m			# rename branch
 	brd = branch -dca		# delete branch
 	lg = log --oneline --graph
