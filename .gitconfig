@@ -12,10 +12,20 @@
 	autocrlf = true
 	editor = code --wait
 [alias]
-	s = status -s
-	ch = checkout
-	br = branch
+	st = status -sb			# git statis -sb, information branch and files
+	aa = add --all			# git add --all, add all files in check
+	ap = add --patch		# git add --patch (-p)
+	au = add --update		# add only files уже находящиеся под наблюдением Гита
+	dca = diff --cached		# git diff --cached, check index area
+	cim = commit -m			# git commit -m "Message"
+	cic = commit -v --amend 	# Change last commit and -v show all lasr changes
+	cif = commit -v -a --amend # add file in last commit without changes index
+	brc = checkout -b		# git checkout -b branch_name create new branch and switch to it
+	brm = branch -m			# rename branch
+	brd = branch -dca		# delete branch
 	lg = log --oneline --graph
+	rh = reset --hard HEAD~ # delete last commit.
+	unstage = reset HEAD -- # git reset HEAD -- fileA
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -25,6 +35,7 @@
 	autocorrect = 20
 [merge]
 	tool = winmerge
+	guitool = winmerge
 [mergetool]
 	prompt = false
     keepBackup = false
@@ -33,10 +44,15 @@
    	name = WinMerge
     trustExitCode = true
     cmd = "/c/serg/application/WinMerge/WinMergeU.exe" -u -e -dl \"Local\" -dr \"Remote\" $LOCAL $REMOTE $MERGED
+# 	cmd = \"C:/serg/application/WinMerge/WinMergeU.exe\" -e -u  -wl -wr -fm -dl \"Mine: $LOCAL\" -dm \"Merged: $BASE\" -dr \"Theirs: $REMOTE\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" -o \"$MERGED\"
+#	path = C:/serg/application/WinMerge/WinMergeU.exe
 
 [diff]
     tool = winmerge
+	guitool = winmerge
 [difftool "winmerge"]
     name = WinMerge
     trustExitCode = true
     cmd = "/c/serg/application/WinMerge/WinMergeU.exe" -u -e $LOCAL $REMOTE
+# 	cmd = \"C:/serg/application/WinMerge/WinMergeU.exe\" -e -u \"$LOCAL\" \"$REMOTE\"
+#	path = C:/serg/application/WinMerge/WinMergeU.exe
