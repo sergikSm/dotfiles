@@ -14,7 +14,7 @@
 [alias]
 	st = status -sb			# git statis -sb, information branch and files
 	aa = add --all			# git add --all, add all files in check
-	ap = add --patch		# git add --patch (-p)
+	a = add --patch			# git add --patch (-p)
 	au = add --update		# add only files уже находящиеся под наблюдением Гита
 	dca = diff --cached		# git diff --cached, check index area
 	cim = commit -m			# git commit -m "Message"
