@@ -21,16 +21,23 @@
 	cic = commit -v --amend 	# Change last commit and -v show all lasr changes
 	cif = commit -v -a --amend # add file in last commit without changes index
 	brc = checkout -b		# git checkout -b branch_name create new branch and switch to it
-<<<<<<< HEAD
-=======
 	brcr =  push origin 	# create remote brabch
+	brdr = push origin --delete # delete remote branch
 	brl = push --set-upstream origin # link current stream with upstream
->>>>>>> 4e81239 (Update git config alias)
 	brm = branch -m			# rename branch
-	brd = branch -dca		# delete branch
+	brd = branch -d			# delete branch
 	lg = log --oneline --graph
 	rh = reset --hard HEAD~ # delete last commit.
 	unstage = reset HEAD -- # git reset HEAD -- fileA
+	bl = blame				# git blame fileN. Shows changes in the fileN.  
+	wip="!git add . && git commit -m 'WIP'"
+  	rewip="reset --soft HEAD^"	
+	# Using wip/rewip
+	# git wip
+	# git checkout <another branch>
+	# ...do something here...
+	# git checkout -
+	# git rewip	  
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -61,3 +68,5 @@
     cmd = "/c/serg/application/WinMerge/WinMergeU.exe" -u -e $LOCAL $REMOTE
 # 	cmd = \"C:/serg/application/WinMerge/WinMergeU.exe\" -e -u \"$LOCAL\" \"$REMOTE\"
 #	path = C:/serg/application/WinMerge/WinMergeU.exe
+[rerere]
+	enabled = true
